@@ -9,6 +9,6 @@ def my_collect(array)
   new_array
 end
 students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
-collect(students) { |x|
+my_collect(students) { |x|
   x.split(" ").first
 }
