@@ -1,6 +1,6 @@
 
 def collect(array)
-
+  
 end
 students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
 collect(students) { |x|
