@@ -2,5 +2,7 @@
 def collect(array)
 
 end
-students = 
-collect(array)
+students = ["Tim Jones", "Tom Smith", "Jim Campagno"]
+collect(students) { |x|
+  x.split(" ").first
+}
